@@ -1,6 +1,9 @@
 # GeoFire for Android — Realtime location queries with Firebase
 
 <!-- GitAds-Verify: OJCBUCNVIKXHNT8494PMTO7TWW1Y94RC -->
+## GitAds Sponsored
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=simplejnius/sjgeofire@github)](https://gitads.dev/v1/ad-track?source=simplejnius/sjgeofire@github)
+
 
 
 GeoFire is an open-source library for Android that allows you to store and query a
