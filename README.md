@@ -46,6 +46,7 @@ SDK](https://firebase.google.com/docs/android/setup). After that you can include
 Add a dependency for GeoFire to your app's `buildozer.spec` file.
 
 ```rpmspec
+requirements = sjgeofire
 android.gradle_dependencies =
     # Full GeoFire library for Realtime Database users
     com.firebase:geofire-android:3.2.0,
@@ -54,7 +55,10 @@ android.gradle_dependencies =
     # want to implement their own geo solution, see:
     # https://firebase.google.com/docs/firestore/solutions/geoqueries
     com.firebase:geofire-android-common:3.2.0
+```
 
+```shell
+pip install sjgeofire
 ```
 
 ## Usage
