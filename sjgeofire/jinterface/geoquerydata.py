@@ -33,8 +33,8 @@ class GeoQueryDataEventListener(PythonJavaClass):
 
     @java_method("()V")
     def onGeoQueryReady(self):
-        self._callback("on_geoquery_ready")
+        self._callback("on_geo_query_ready")
 
     @java_method("(Lcom/google/firebase/database/DatabaseError;)V")
     def onGeoQuerryError(self, error):
-        self._callback("on_geoquery_error", error)
+        self._callback("on_geo_query_error", error)

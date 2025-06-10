@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sjgeofire"
-version = "0.2.0"
+version = "0.3.0"
 description = "GeoFire for Kivy Android apps"
 authors = ["Kenechukwu Akubue <kengoon19@gmail.com>"]
 readme = "README.md"
